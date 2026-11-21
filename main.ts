@@ -5,10 +5,10 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const text =
-  "The kettle ticks as it cools. Outside, rain finds the roof one drop at a time, " +
+  "The kettle ticks as it cools. Outside, rain finds the roof one drop, then another, " +
   "and the night widens past the window, past the roofs, past the sleeping town, " +
   "until there is only dark water under dark sky, and the rain still falling, " +
-  "soft, with nowhere to hurry to.";
+  "soft, with nowhere at all to hurry to.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", text, "utf8");
